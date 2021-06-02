@@ -11,6 +11,6 @@ public class Challenge3 {
         System.out.print("How many slices per pizza?");
         int spp = in.nextInt(); // slices per pizza
         System.out.printf("You will have to buy %d whole pizzas. There will be %d leftover slices",
-                people * slices / spp, people * slices % spp);
+                1 + people * slices / spp, people * slices % spp);
     }
 }
